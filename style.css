@@ -1,0 +1,97 @@
+body{
+    background-image: url(https://payvis.ng/_nuxt/img/vis-bg.0e7a9c1.jpg) ;
+    
+
+}
+#container{
+    width: 80%;
+    margin: 10px auto;
+    background: white;
+    display: grid;
+    /*grid-template-columns: repeat(2, 1fr);*/
+    grid-template-columns: 1fr 1fr;
+}
+
+#container p {
+padding: 10px;
+}
+.logo-container{
+    background: gold;
+    
+    
+    
+}
+   
+#logo-image{
+    text-align: center;
+}
+
+.logo-container h2 {
+    text-align: center;
+    color: rgb(10, 10, 109);
+}
+
+#form-container{
+    padding: 10px;
+    
+}
+
+#form-info{
+    background-color: gray;
+    height: 6em;
+}
+#form-info p{
+    font-size: 20px;
+    display: block;
+}
+
+
+
+#main-form h2{
+    padding: 2px;
+    color: gray;
+}
+
+
+.main-form--info{
+    border: 1px solid black ;
+}
+
+.main-form--info h3{
+    padding: 10px;
+    color: gray;
+}
+
+.main-form--info input{
+    margin: 2%;
+    font-size: medium;
+}
+
+.main-form--info #btn{
+    background-color: rgb(85, 128, 221);
+    padding: 5px;
+    border: none;
+
+}
+
+.search #search-button {
+    background-color: rgb(64, 73, 196);
+    padding: 10px;
+    border: none;
+}
+
+.search #search-btn{
+    background-color: rgb(127, 178, 255);
+    padding: 10px;
+    border: none;
+    
+}
+
+.form-info h5{
+    font-size: bold;
+color: rgb(204, 11, 11);
+}
+.textbox input{
+margin: 10px;
+font-size: medium;
+}
